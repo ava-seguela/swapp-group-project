@@ -1,0 +1,14 @@
+.btn-xl-validation {
+  background-color: #47a7b5;
+  color: #dcedf1;
+  display: inline-block;
+  border: none;
+  transition: 0.3s;
+  box-sizing: content-box;
+  cursor: pointer; /*pour que le cursor soit une main quand on survole avec la souris*/
+}
+
+.btn-xl-validation:hover {
+  background-color: white;
+  color: black;
+}

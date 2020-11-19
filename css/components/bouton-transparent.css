@@ -1,0 +1,20 @@
+@charset "UTF-8";
+.bouton-tranparent {
+  background-color: #feb7e380; /*quand une couleur contient 8 éléments, les 2 derniers servent pour la transparence, si on écris 80 alors c'est transparent à moitié*/
+  color: white;
+  display: inline-block; /*permet d'avoir un élément sur la même ligne, de tele sorte qu'on puisse modifier ses dimensions (largeurs, marges...)*/
+  vertical-align: top; /*il faut toujours écrire cette ligne quand on utilise display:inline-block*/
+  padding: 0.5rem 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  min-width: 9rem;
+  text-align: center;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: 0.3s; /*pour avoir un joli effet de transition en fondu */
+}
+
+.bouton-tranparent:hover {
+  background-color: #feb7e3; /*rose du logo*/
+  color: black;
+}
