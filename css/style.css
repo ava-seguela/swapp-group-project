@@ -62,3 +62,7 @@ body {
 .padding-zero{
 	padding: 0;
 }
+
+.test {
+ color: red;
+}
