@@ -29,6 +29,11 @@
 @import url("components/c-input c-input--wide");
 @import url("components/mesproduits.css");
 
+@import url("components/submit.css");
+@import url("components/signin.css");
+@import url("components/form-group.css");
+
+
 html, body {
   /*on fait ça pour éviter d'avoir des petits contours blanc*/
   margin: 0;
@@ -44,6 +49,9 @@ body {
   float: left;
   /*pour que l'élément flotte à gauche et qu'on puisse mettre d'autres éléments sur la même ligne à sa droite*/
   width: 7rem;
+  /*background-color: white ;*/
+  border-radius: 50rem ;
+  padding: 0.3rem 0 ;
 }
 
 .logo img {
@@ -62,5 +70,3 @@ body {
 .padding-zero{
 	padding: 0;
 }
-
-

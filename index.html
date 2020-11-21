@@ -30,8 +30,8 @@
         </div>
 
         <div class="ruban-banner-droite">
-            <a href="" class="bouton-tranparent">Sign in/Sign up</a>
-            <a href="" class="bouton-tranparent">Sell your articles</a>
+            <a href="Sign%20in.html" class="bouton-tranparent">Sign in/Sign up</a>
+            <a href="Addarticles.html" class="bouton-tranparent">Sell your articles</a>
         </div>
 
         <!-- balise "h1" pour le titre principale de la page -->
@@ -43,12 +43,14 @@
             <div class="input-3-parties">
 
                 <!-- la balise label sert à faire une ÉTIQUETTE pour les input, on peut l'accoupler à un input de telle sorte que si on clique sur le label, le focus se met dans l'input accouplé -->
-                <label class="input-3-parties-label" for="input-3-parties-input1">Articles</label>
+                <!-- <label class="input-3-parties-label" for="input-3-parties-input1">Articles</label> -->
 
                 <!-- un input type="text" est un long rectangle dans lequel on peut écrire du texte -->
                 <!-- l'attribut "placeholder" est un "bouche-trou" : si l'input est vide, alors c'est le texte qui apparaît par défaut pour aider l'utilisateur -->
                 <!-- l'attribut "autofocus" sert à mettre le focus automatiquement dans cet input quand l'internaute débarque sur la page. Comme ça il n'a pas besoin de cliquer dedans -->
-                <input class="input-3-parties-input" id="input-3-parties-input1" type="text" placeholder="Search for items" autofocus>
+                <input class="input-3-parties-input" type="text" placeholder="Search for items" autofocus>
+                <input class="input-3-parties-input" type="text" placeholder="City" >
+                <input class="input-3-parties-input" type="text" placeholder="Zip Code" >
 
                 <!-- un input type="image" est une image qui permet d'envoyer le formulaire (balise "form") -->
                 <input class="input-3-parties-bouton" type="image" src="images/loupe.png" >
@@ -56,23 +58,31 @@
 
             <div>
                 <!-- si le label entoure un input, on peut mettre dans le HTML la balise "input" à l'intérieur de la balise "label". Les deux sont alors automatiquements accouplés (c'est-à-dire que si on clique dedans ) -->
-                <label class="btn-xl">
+                <!--<label class="btn-xl">
                     City
                     <input type="text" placeholder="ex: Marseille">
-                </label>
+                </label> -->
 
-                <label class="btn-xl">
+               <!-- <label class="btn-xl">
                     Zip code
                     <input type="text" placeholder="ex: 75017">
-                </label>
-
+                </label> -->
                 <a class="btn-xl btn-xl-lien" href="#">
-                    Sign up
+                    Women
                 </a>
+                <a class="btn-xl btn-xl-lien" href="#">
+                    Men
+                </a>
+                <a class="btn-xl btn-xl-lien" href="#">
+                    Home
+                </a>
+                <!--<a class="btn-xl btn-xl-lien" href="#">
+                    Sign up
+                </a>-->
 
                 <!-- un input type="submit" est un boutno qui permet de soumettre le formulaire (c'est-à-dire le valider) -->
                 <!-- l'attribut "value" permet de contenir le texte affiché dans l'input type="submit" -->
-                <input type="submit" class="btn-xl btn-xl-validation" value="Search">
+                <!--<input type="submit" class="btn-xl btn-xl-validation" value="Search">-->
 
             </div>
 
