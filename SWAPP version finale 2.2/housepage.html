@@ -1,0 +1,136 @@
+<!-- le "doctype" sert à indiquer au navigateur qu'on est sur une page HTML -->
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <!-- on écrit l'encodage de la page, en quelque sorte l'alphabet informatique utiisé pour lire la page. Dans le web on se force d'utiliser de plus en plus UTF-8 car il est réputé être le meilleur actuellement -->
+    <meta charset="UTF-8">
+
+    <!-- nom de l'onglet -->
+    <title>HOUSEPAGE</title>
+
+    <!-- miniature de l'onglet dans le navigateur -->
+    <link rel="shortcut icon" href="images/logo.png">
+
+    <!-- feuilles de style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- la balise "header" sert à regrouper des élément d'un entête -->
+    <header class="banner">
+
+        <!-- "src" contient l'URL de l'image -->
+        <!-- "alt" contient le texte alernatif pour les aveugles, et Google Image-->
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="logo swapp">
+            </a>
+        </div>
+
+
+        <div class="ruban-banner-droite">
+            <!-- l'attribut "title" permet de faire apparaître une infobulle si on reste longtemps pointé avec la souris -->
+            <a class="avatar" href="Profilepage.html" title="Consulter le profil">
+                <img src="images/avatar.jpg" alt="avatar Stéphanie">
+            </a>
+            <!-- <a href="" class="bouton-tranparent">Sign in/Sign up</a>
+            <a href="" class="bouton-tranparent">Sell your articles</a> -->
+        </div>
+
+
+
+        <!-- balise "h1" pour le titre principale de la page -->
+        <h1 class="titre">Exchange what you no longer want with what you desire</h1>
+
+        <!-- la balise "form" sert à créer un formulaire : champs de saisie de texte, boutons de validation etc. -->
+        <form>
+
+            <div class="input-3-parties">
+
+                <!-- un input type="text" est un long rectangle dans lequel on peut écrire du texte -->
+                <!-- l'attribut "placeholder" est un "bouche-trou" : si l'input est vide, alors c'est le texte qui apparaît par défaut pour aider l'utilisateur -->
+                <!-- l'attribut "autofocus" sert à mettre le focus automatiquement dans cet input quand l'internaute débarque sur la page. Comme ça il n'a pas besoin de cliquer dedans -->
+                <input class="input-3-parties-input" id="input-3-parties-input1" type="text" placeholder="Choose a filter" autofocus>
+
+                <!-- un input type="image" est une image qui permet d'envoyer le formulaire (balise "form") -->
+                <input class="input-3-parties-bouton" type="image" src="images/loupe.png" >
+            </div>
+
+            <div>
+                <!-- si le label entoure un input, on peut mettre dans le HTML la balise "input" à l'intérieur de la balise "label". Les deux sont alors automatiquements accouplés (c'est-à-dire que si on clique dedans ) -->
+
+                <a class="btn-xl btn-xl-lien" href="#">
+                    Furnitures
+                </a>
+
+                <a class="btn-xl btn-xl-lien" href="#">
+                    Household Appliances
+                </a>
+
+                <a class="btn-xl btn-xl-lien" href="#">
+                    Books
+                </a>
+
+            </div>
+
+
+
+        </form>
+
+    </header>
+
+    <!-- la balise "main" sert à regrouper les éléments principaux de la page -->
+    <main class="container">
+
+        <!-- la balise "h2" contient un titre de niveau 2 (un sous-titre) -->
+
+        <div class="container-vertical">
+            <h2>Furnitures</h2>
+
+            <a class="produit" href="">
+                <img src="images/t-shirt-yahweh-yireh.jpg" alt="logo swap">
+            </a>
+
+            <a class="produit" href="">
+                <img src="images/t-shirt-yahweh-yireh.jpg" alt="logo swap">
+            </a>
+
+        </div>
+
+
+
+        <div class="container-vertical">
+            <h2>Household Appliances</h2>
+
+            <a class="produit" href="">
+                <img src="images/t-shirt-yahweh-yireh.jpg" alt="logo swap">
+            </a>
+
+            <a class="produit" href="">
+                <img src="images/t-shirt-yahweh-yireh.jpg" alt="logo swap">
+            </a>
+
+        </div>
+
+
+        <div class="container-vertical">
+            <h2>Books</h2>
+
+            <a class="produit" href="">
+                <img src="images/t-shirt-yahweh-yireh.jpg" alt="logo swap">
+            </a>
+
+            <a class="produit" href="">
+                <img src="images/t-shirt-yahweh-yireh.jpg" alt="logo swap">
+            </a>
+
+        </div>
+
+
+    </main>
+
+
+</body>
+</html>

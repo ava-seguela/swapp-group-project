@@ -1,0 +1,15 @@
+.container-vertical {
+  width: 20rem;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.container-vertical div {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.container-vertical h2 {
+  text-align: center;
+  padding: 0.5rem;
+}
