@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.produit {
+  display: inline-block;
+  vertical-align: top;
+  width: 18rem;
+  height: 15rem;
+  text-align: center;
+  border: solid 0.1rem black;
+}
+
+.produit:not(:last-child) {
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+}
+
+.produit img {
+  height: 15rem;
+  box-shadow: 0 0 0.5rem 0.5rem #cde7ebdd; /*ombre d'une boîte, on a dans l'ordre : décalage horizontal, décalage vertical, flou, agrandissement, couleur*/
+  transition: 0.3s;
+}
+
+.produit:hover img {
+  box-shadow: 0 0 1rem 1rem #cde7ebdd;
+}

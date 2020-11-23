@@ -1,0 +1,17 @@
+.form-group {
+margin-bottom: : 50px;
+margin-top: 50px;
+}
+
+#exampleInputPassword1 {
+margin-left: 33px;
+width: 500px;
+}
+
+#exampleInputEmail1 {
+width: 500px;
+}
+
+#exampleCheck1 {
+margin-left: 250px;
+}

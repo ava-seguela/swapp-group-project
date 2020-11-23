@@ -1,0 +1,40 @@
+.trois-colonnes-titre-img{
+	background-color:#f1f1f1;
+	padding: 3rem;
+}
+.trois-colonnes-titre-img .titre , .trois-colonnes-titre-img .image{
+	width: 32%;
+}
+.trois-colonnes-titre-img .titre{
+	display: inline-block;
+	vertical-align: top;
+	color:black;
+	font-size: 2rem;
+}
+@media (max-width: 960px){ /*si l'écran est  moins large que 960px */
+	.trois-colonnes-titre-img .titre{
+		font-size: 2rem;
+	}
+}
+@media (max-width: 720px){ /*si l'écran est  moins large que 720px */
+	.trois-colonnes-titre-img .titre{
+		font-size: 1.5rem;
+	}
+}
+@media (max-width: 540px){ /*si l'écran est  moins large que 540px */
+	.trois-colonnes-titre-img .titre{
+		font-size: 1rem;
+	}
+}
+.trois-colonnes-titre-img .images{
+	display: flex; /*pour aligner verticalement*/
+	justify-content: center;
+	align-items: center;
+}
+.trois-colonnes-titre-img .fleches{
+	padding: 5%;
+	box-sizing: border-box;/*pour que la marge interne (padding) pousse vers l'intérieur*/
+}
+.trois-colonnes-titre-img img{
+	width: 100%;
+}

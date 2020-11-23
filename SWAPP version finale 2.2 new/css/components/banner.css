@@ -1,0 +1,13 @@
+.banner {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 2rem 5rem 6rem;
+  background-image: url("../../images/fond.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; /*pour que l'image "couvre" partout, qu'il n'y ai pas de blanc*/
+}
+
+.ruban-banner-droite {
+  text-align: right;
+}
