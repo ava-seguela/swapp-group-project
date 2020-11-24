@@ -1,0 +1,6 @@
+.seeall-link{
+	/*display : block;
+	vertical-align : top;*/
+	padding : 0.25rem;
+	text-decoration:none;/*enleve le soulignement*/
+}
