@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/*on utilise les rem comme unité de longueur, ça permet d'être responsive*/
+/*utilisation de la police "ABeeZee" avec GoogleFont*/
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
+/*importation des components*/
+@import url("components/bouton-transparent.css");
+@import url("components/produit.css");
+@import url("components/input-3-parties.css");
+@import url("components/btn-xl.css");
+@import url("components/btn-xl-lien.css");
+@import url("components/btn-xl-validation.css");
+@import url("components/banner.css");
+@import url("components/titre.css");
+@import url("components/container.css");
+@import url("components/container-marge-dessous.css");
+@import url("components/container-vertical.css");
+@import url("components/avatar.css");
+@import url("components/lien-non-souligne.css");
+@import url("components/trois-colonnes-titre-img.css");
+@import url("components/ombre-bleue.css");
+@import url("components/container-2-col-petit-grand.css");
+
+@import url("components/button-message.css");
+@import url("components/button-message_validation.css");
+@import url("components/media-select_grid.css");
+@import url("components/profile.css");
+@import url("components/card.css");
+@import url("components/Card_card__21tqh");
+@import url("components/c-input c-input--wide");
+@import url("components/mesproduits.css");
+@import url("components/adding.css");
+@import url("components/submit.css");
+@import url("components/signin.css");
+@import url("components/form-group.css");
+
+@import url("components/seeall-link.css");
+
+
+html, body {
+  /*on fait ça pour éviter d'avoir des petits contours blanc*/
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*utilisation de la police "ABeeZee" avec GoogleFont*/
+  font-family: 'ABeeZee', sans-serif;
+}
+
+.logo {
+  float: left;
+  /*pour que l'élément flotte à gauche et qu'on puisse mettre d'autres éléments sur la même ligne à sa droite*/
+  width: 7rem;
+  /*background-color: white ;*/
+  border-radius: 50rem ;
+  padding: 0.3rem 0 ;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.text-right{
+	text-align:right;
+}
+.text-center{
+  text-align:center;
+}
+.c-input__content{
+    margin-bottom: 1rem;
+}
+.padding-zero{
+	padding: 0;
+}
+
+.fa.fa-star{
+	color:lightgray;
+}
+.fa.fa-star.checked{
+	color:orange;
+}
