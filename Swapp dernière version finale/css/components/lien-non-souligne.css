@@ -1,0 +1,12 @@
+.lien-non-souligne{
+	color: #47a7b5;/*bleu canard*/
+	text-decoration : none;
+	display: inline-block;
+	vertical-align: top;
+	padding: 1rem 0;
+	transition:0.3s;
+	font-weight:bold;
+}
+.lien-non-souligne:hover{
+	color: gray;
+}

@@ -1,0 +1,11 @@
+.btn-xl-lien {
+	color: black;
+	text-decoration: none;
+	line-height: 2rem;
+	transition: 1s;
+	border-radius: 1.5rem ;
+}
+.btn-xl-lien:hover {
+	border-radius: 0.3rem;
+}
+
