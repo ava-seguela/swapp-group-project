@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.produit {
+  display: inline-block;
+  vertical-align: top;
+  width: 18rem;
+  height: 15rem;
+  text-align: center;
+  border: solid 0.1rem black;
+  text-decoration:none;/*pour enlever le soulignement*/
+}
+
+.produit:not(:last-child) {
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+}
+
+.produit img {
+  height: 15rem;
+  box-shadow: 0 0 0.5rem 0.5rem #cde7ebdd; /*ombre d'une boîte, on a dans l'ordre : décalage horizontal, décalage vertical, flou, agrandissement, couleur*/
+  transition: 0.3s;
+}
+
+.produit:hover img {
+  box-shadow: 0 0 1rem 1rem #cde7ebdd;
+}
+
+
+.produit-infos{
+	display:flex;
+	justify-content:center;
+	padding : 0 0.5rem 1rem;
+	margin-bottom:1rem;
+}
+.produit-infos  .link_exchange{
+	font-size:3rem;
+	line-height:1.5rem;
+	background-color:#47a7b5;
+	color:white;
+	border-radius:50rem;
+	padding:0.5rem;
+	transition:0.5s;
+}
+.produit:hover  .link_exchange{
+	background-color:#feb7e3;
+	color:black;
+}
